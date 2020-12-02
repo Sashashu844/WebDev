@@ -1,0 +1,39 @@
+.header-container {
+background: #000000;
+font-family: Times New Roman;
+color: #FFFFFF;
+}
+.menu-container {
+font-family: Times New Roman;
+font-style: normal;
+font-weight: bold;
+color: #000000;
+}
+#Biografia, #Ho, #odinoki-vmeste{
+background: #000000;
+font-family: Times New Roman;
+color: #FFFFFF;
+}
+.main-text-brief1, .main-text-brief2, .section-text-Ho1, .section-text-Ho2, .main-text-odinoki-vmeste1, .main-text-odinoki-vmeste2{
+font-family: Times New Roman;
+font-style: normal;
+font-weight: bold;
+color: #000000;
+}
+.Links{
+font-family: Times New Roman;
+font-style: normal;
+font-weight: bold;
+color: #000000;
+}
+.section-text{
+background: #000000;
+font-family: Times New Roman;
+color: #FFFFFF;
+}
+.copyright{
+font-family: Times New Roman;
+font-style: normal;
+font-weight: bold;
+color: #000000;
+}
