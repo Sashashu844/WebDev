@@ -1,0 +1,310 @@
+@import url(reset.css);
+
+body {
+	background: #000000;
+}
+
+.wrapper {
+	max-width: 1320px;
+	margin: auto;
+	padding: 0 15px;
+}
+
+/*----HEADER-------------------------*/
+
+.header {
+}
+.header__box {
+	display: flex;
+	min-height: 90px;
+	align-items: center;
+	padding: 0 15px;
+
+}
+.logo {
+
+}
+.nav {
+	flex: 1 1 auto;
+}
+.nav__ul {
+	display: flex;
+	gap: 30px;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+.nav__ul__li {
+}
+.nav__li__a {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.news {
+	color: #A37846;
+}
+
+.header__button {
+	flex: 0 0 136px;
+	display: flex;
+	justify-content: flex-end;
+}
+.button {
+
+}
+
+.a {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/*----InfoPanel-------------------------*/
+
+.InfoPanel {
+	display: flex;
+	align-items: center;
+	max-width: 1320px;
+	min-height: 56px;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+.InfoPanel__block {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 20px;
+	color: #9CA1A9;
+	padding: 0 0 0 16px;
+
+}
+
+.order__text {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: flex-end;
+}
+.order {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 20px;
+	color: #9CA1A9;
+}
+.order__input {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 20px;
+}
+
+/*----MAIN-------------------------*/
+
+.main {
+	display: flex;
+	max-width: 1320px;
+	flex: 1 1 auto;
+	background: #F2F2F2;
+	margin: 15px 0 50px;
+	flex-direction: column;
+}
+.main__box {
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: auto;
+}
+
+@media (max-width: 585px) {
+	.main__box {
+
+		margin: 30px 30px 44px 30px;
+	}
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	background: #FFFFFF;
+	border: 5px solid #A37846;
+	border-radius: 10px;
+	max-width: 1200px;
+	margin: 20px 0 10px 0;
+}
+.title__text {
+	font-family: 'PF Regal Text Pro';
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #000000;
+	margin: 45px 66px 66px 58px;
+	flex: 1 1 auto;
+}
+
+@media (max-width: 585px) {
+	.title__text{
+		font-size: 25px;
+		margin: 22px 33px 33px 29px;
+	}
+}
+
+.title__text__time {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #9CA1A9;
+	padding: 0 0 30px 0;
+}
+
+.item {
+	display: flex;
+	max-width: 1200px;
+	background: #FFFFFF;
+	border: 1px solid #9CA1A9;
+	border-radius: 10px;
+	margin: 10px 0 10px 0;
+}
+
+@media (max-width: 1297px){
+	.item{
+		flex-wrap: wrap;
+	}
+}
+
+.item__title__box {
+	display: flex;
+	flex-direction: column;
+	max-width: 570px;
+	padding: 30px 15px 30px 30px;
+}
+
+@media (max-width: 1297px){
+	.item__title__box{
+		margin: auto;
+	}
+}
+
+
+.item__sub {
+	display: flex;
+	max-width: 585px;
+	flex-wrap: wrap;
+	padding: 30px 30px 30px 0;
+}
+
+@media (max-width: 1297px){
+	.item__sub{
+		margin: auto;
+	}
+}
+
+.item__title {
+	flex: 1 1 auto;
+	font-family: 'PF Regal Text Pro';
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 41px;
+	color: #000000;
+	flex: 1 1 auto;
+}
+
+@media (max-width: 1297px){
+	.item__sub{
+		margin: auto;
+	}
+}
+
+.item__text__block {
+	display: flex;
+	flex-direction: column;
+	max-width: 250px;
+	margin: auto;
+
+}
+.item__text {
+	font-family: 'PF Regal Text Pro';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;
+}
+
+.item_time_sub {
+	font-family: '(null)';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	color: #9CA1A9;
+
+}
+
+.item_time {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	color: #9CA1A9;
+	padding: 30px 0;
+}
+
+/*----FOOTER-------------------------*/
+
+
+.footer {
+	display: flex;
+	max-width: 1320px;
+	flex: 1 1 auto;
+	flex-direction: column;
+}
+
+.footer_box {
+	display: flex;
+	max-width: 1106px;
+	color: white;
+	margin: auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.fotter_info {
+
+}
+
+li {
+	font-family: Proxima Nova,Arial,Helvetica Neue,sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: -0.05em;
+	text-transform: capitalize;
+	padding: 7px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+.footer__title {
+	letter-spacing: 1px;
+    text-transform: uppercase;
+    color: hsla(0,0%,100%,.5);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.test1 {
+	margin: auto;
+}
+
+.test {
+	max-width: 500px;
+	border-bottom: 1px solid #FFFFFF;
+	margin: auto;
+}
